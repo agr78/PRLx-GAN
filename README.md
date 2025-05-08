@@ -1,2 +1,21 @@
 # PRLx-RimGAN
 Repository for the conference paper [_Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis_](https://openreview.net/forum?id=wFkiqB5spT&referrer=%5Bthe%20profile%20of%20Alexandra%20Grace%20Roberts%5D(%2Fprofile%3Fid%3D~Alexandra_Grace_Roberts1)) published in [Synthetic Data](https://syndata4cv.github.io/) at [CVPR 2025](https://cvpr.thecvf.com/).
+
+## Publications
+If this code is used, please cite the following:
+> [Conference Paper](https://openreview.net/forum?id=wFkiqB5spT&noteId=wFkiqB5spT): A. G. Roberts et al., "Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis," Synthetic Data for Computer Vision at CVPR, 2025.
+> 
+
+## BibTex
+```bibtex
+@inproceedings{
+roberts2025synthetic,
+title={Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis},
+author={Alexandra Grace Roberts and Ha Manh Luu and Mert Sisman and Alexey V. Dimov and Ceren Tozlu and Ilhami Kovanlikaya and Susan Gauthier and Thanh D. Nguyen and Yi Wang},
+booktitle={Synthetic Data for Computer Vision Workshop @ CVPR 2025},
+year={2025},
+url={https://openreview.net/forum?id=wFkiqB5spT}
+}
+```
+## Contact
+Please direct questions to [Alexandra Roberts](https://github.com/agr78) at agr78@cornell.edu.

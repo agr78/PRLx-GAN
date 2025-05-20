@@ -29,5 +29,7 @@ year={2025},
 url={https://openreview.net/forum?id=wFkiqB5spT}
 }
 ```
+## Acknowledgements
+This method relies on the [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) architecture developed by [`@tkarras`](https://github.com/tkarras).
 ## Contact
 Please direct questions to [Alexandra Roberts](https://github.com/agr78) at agr78@cornell.edu.

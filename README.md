@@ -1,5 +1,14 @@
 # PRLx-RimGAN
 Repository for [_Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis_](https://openreview.net/forum?id=wFkiqB5spT&referrer=%5Bthe%20profile%20of%20Alexandra%20Grace%20Roberts%5D(%2Fprofile%3Fid%3D~Alexandra_Grace_Roberts1)) published in [Synthetic Data](https://syndata4cv.github.io/) at [CVPR 2025](https://cvpr.thecvf.com/). 
+<br/>
+<br/>
+
+<p align="center">
+   <img src="./gif/proj_4x.gif"/>
+</p>
+
+<br/>
+
 ### Contents
 Uncurated synthetic rim lesion susceptibilities can be found in [`png`](https://github.com/agr78/PRLx-GAN/tree/main/png) <br/>
 Pretrained weights are located in [`net`](https://github.com/agr78/PRLx-GAN/tree/main/net) <br/>

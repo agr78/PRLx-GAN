@@ -13,6 +13,14 @@ Repository for [_Synthetic Generation and Latent Projection Denoising of Rim Les
 Uncurated synthetic rim lesion susceptibilities can be found in [`png`](https://github.com/agr78/PRLx-GAN/tree/main/png) <br/>
 Pretrained weights are located in [`net`](https://github.com/agr78/PRLx-GAN/tree/main/net) <br/>
 
+## Preliminaries
+To download the pretrained weights, ensure [Git Large File Service](https://git-lfs.com/) is installed
+```
+sudo apt-get install git-lfs
+git lfs install
+```
+The `main.sh` script will skip retraining unless `\your\QSM\data` is replaced by a valid path
+
 ## Installation
 Clone the repository with
 ```
@@ -29,13 +37,6 @@ source ./src/main.sh
 Wait...then check the generated and denoised outputs
 ```
 cd .\out
-```
-
-## Notes
-To download the pretrained weights, ensure [Git Large File Service](https://git-lfs.com/) is installed
-```
-sudo apt-get install git-lfs
-git lfs install
 ```
 
 ## Publications

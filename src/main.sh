@@ -1,5 +1,6 @@
 #!/bin/bash
 # Make environment
+conda config --add channels defaults
 conda create -n "rimgan" python=3.7.0 ipython
 # Activate it
 conda activate rimgan

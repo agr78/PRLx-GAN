@@ -26,7 +26,14 @@ Run the setup script
 ```
 source ./src/main.sh
 ```
-Wait
+Wait...
+
+## Notes
+To download the pretrained weights, ensure [Git Large File Service](https://git-lfs.com/) is installed
+```
+sudo apt-get install git-lfs
+git lfs install
+```
 
 ## Publications
 If this code is used, please cite the following:

@@ -18,6 +18,8 @@ git clone https://github.com/NVlabs/stylegan2-ada-pytorch.git
 python generate.py \ 
 --outdir=out --trunc=1 --seeds=85,265,297,849 \
 --network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl
+# Apply patch
+git apply ./patch/prlx_gan.patch
 # Retrain (optional)
 python train.py --outdir=./training-runs --data=/your/QSM/rims --gpus=8
 # Generate synthetic PRL QSM

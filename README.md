@@ -13,6 +13,21 @@ Repository for [_Synthetic Generation and Latent Projection Denoising of Rim Les
 Uncurated synthetic rim lesion susceptibilities can be found in [`png`](https://github.com/agr78/PRLx-GAN/tree/main/png) <br/>
 Pretrained weights are located in [`net`](https://github.com/agr78/PRLx-GAN/tree/main/net) <br/>
 
+## Installation
+Clone the repository with
+```
+git clone https://github.com/agr78/PRLx-GAN.git
+```
+Navigate to the repository
+```
+cd PRLx-GAN
+```
+Run the setup script
+```
+source ./src/main.sh
+```
+Wait
+
 ## Publications
 If this code is used, please cite the following:
 > [Conference Paper](https://openreview.net/forum?id=wFkiqB5spT&noteId=wFkiqB5spT): A. G. Roberts et al., "Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis," Synthetic Data for Computer Vision at CVPR, 2025.

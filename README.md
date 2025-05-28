@@ -26,7 +26,10 @@ Run the setup script
 ```
 source ./src/main.sh
 ```
-Wait...
+Wait...then check the generated and denoised outputs
+```
+cd .\out
+```
 
 ## Notes
 To download the pretrained weights, ensure [Git Large File Service](https://git-lfs.com/) is installed

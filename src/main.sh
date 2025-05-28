@@ -31,4 +31,4 @@ cd ../PRLx-GAN
 python ~/stylegan2-ada-pytorch/generate.py --outdir=./out --trunc=1 --seeds=100-200 --network=./net/network-snapshot-025000.pkl 
 # Project noisy rims onto latent space
 mkdir ~/PRLx-GAN/proj
-python ~/stylegan2-ada-pytorch/projector.py --outdir=out --target=./proj --network=./net/network-snapshot-025000.pkl 
+python ~/stylegan2-ada-pytorch/projector.py --outdir=out --target=./sample/noisy_rim.png --network=./net/network-snapshot-025000.pkl 

@@ -23,10 +23,11 @@ cd stylegan2-ada-pytorch
 # Test the repo
 python generate.py --outdir=out --trunc=1 --seeds=85,265,297,849 --network=https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metfaces.pkl
 # Apply patch
-git apply ~PRLx-GAN/patch/prlx_gan.patch
+git apply ~/PRLx-GAN/patch/prlx_gan.patch
 # Retrain (optional)
 python train.py --outdir=./training-runs --data=/your/QSM/rims --gpus=8
+cd ../PRLx-GAN
 # Generate synthetic PRL QSM
-python generate.py --outdir=./out --trunc=1 --seeds=100-200 --network=~PRLx-GAN/net/network-snapshot-025000.pkl 
+python ~/stylegan2-ada-pytorch/generate.py --outdir=./out --trunc=1 --seeds=100-200 --network=./net/network-snapshot-025000.pkl 
 # Project noisy rims onto latent space
-python projector.py --outdir=out --target=/sample_noisy_rim.png --network=~/PRLx-GAN/net/network-snapshot-025000.pkl 
+python ~/stylegan2-ada-pytorch/projector.py --outdir=out --target=/sample_noisy_rim.png --network=./net/network-snapshot-025000.pkl 

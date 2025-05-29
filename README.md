@@ -36,7 +36,7 @@ source ./src/main.sh
 ```
 Wait...then check the generated and denoised outputs
 ```
-cd .\out
+cd ./out
 ```
 
 ## Publications

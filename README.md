@@ -10,7 +10,7 @@ Paramagnetic rim lesions (PRLs) are a rare but highly prognostic lesion subtype 
 
 <p align="center">
    <img src="./gif/proj_4x.gif"/></br>
-   <i>Latent projection iterations to identify the denoised rim lesion from an "noisy" rim lesion.</i>
+   <i>Latent projection iterations to identify the denoised rim lesion from a "noisy" rim lesion.</i>
 </p>
 
 <br/>

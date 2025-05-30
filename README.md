@@ -3,13 +3,14 @@ Repository for [_Synthetic Generation and Latent Projection Denoising of Rim Les
 ## Summary
 Paramagnetic rim lesions (PRLs) are a rare but highly prognostic lesion subtype in multiple sclerosis, visible only on susceptibility ($\chi$) contrasts. This work presents a generative framework to: <br/>
 * Synthesize new rim lesion maps that address class imbalance in training data <br/>
-* Enable a novel denoising method to resolve radiologist disagreements on "ambiguous rim lesions". <br/>
+* Enable a novel denoising method to resolve radiologist disagreements on noisy labels, "ambiguous rim lesions". <br/>
 
 <br/>
 <br/>
 
 <p align="center">
-   <img src="./gif/proj_4x.gif"/>
+   <img src="./gif/proj_4x.gif"/></br>
+   <i>Latent projection iterations to identify the denoised rim lesion from an "noisy" rim lesion.</i>
 </p>
 
 <br/>

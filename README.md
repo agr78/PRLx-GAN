@@ -1,7 +1,7 @@
 # PRLx-GAN
 Repository for [_Synthetic Generation and Latent Projection Denoising of Rim Lesions in Multiple Sclerosis_](https://openreview.net/forum?id=wFkiqB5spT&referrer=%5Bthe%20profile%20of%20Alexandra%20Grace%20Roberts%5D(%2Fprofile%3Fid%3D~Alexandra_Grace_Roberts1)) published in [Synthetic Data](https://syndata4cv.github.io/) at [CVPR 2025](https://cvpr.thecvf.com/). 
 ## Summary
-Paramagnetic rim lesions (PRLs) are a rare but highly prognostic lesion subtype in multiple sclerosis, visible only on susceptibility ($\chi$) contrasts. This work presents a generative framework to: <br/>
+Paramagnetic rim lesions (PRLs) are a rare but highly prognostic lesion subtype in multiple sclerosis, visible only on susceptibility ($\chi$) contrasts. [This work](https://huggingface.co/papers/2505.23353) presents a generative framework to: <br/>
 * Synthesize new rim lesion maps that address class imbalance in training data <br/>
 * Enable a novel denoising method to resolve radiologist disagreements on noisy labels, "ambiguous rim lesions". <br/>
 
@@ -16,8 +16,8 @@ Paramagnetic rim lesions (PRLs) are a rare but highly prognostic lesion subtype 
 <br/>
 
 ## Contents
-Uncurated synthetic rim lesion susceptibilities can be found in [`png`](https://github.com/agr78/PRLx-GAN/tree/main/png) <br/>
-Pretrained weights are located in [`net`](https://github.com/agr78/PRLx-GAN/tree/main/net) <br/>
+Uncurated synthetic rim lesion [susceptibilities](https://huggingface.co/datasets/agr78/PRLx-GAN-synthetic-rim) can be found in [`png`](https://github.com/agr78/PRLx-GAN/tree/main/png) <br/>
+Pretrained [weights](https://huggingface.co/agr78/PRLx-GAN) are located in [`net`](https://github.com/agr78/PRLx-GAN/tree/main/net) <br/>
 
 ## Preliminaries
 To download the pretrained weights, ensure [Git Large File Service](https://git-lfs.com/) is installed
